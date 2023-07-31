@@ -226,7 +226,7 @@ p.bio-text {
   font-weight: bold;
   margin: auto;
   letter-spacing: 0.05em;
-  width: 30em;
+  width: 100%;
 }
 
 .Rs-btn {
@@ -277,10 +277,10 @@ a.resume.link {
 
 .projects-container {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   flex-wrap: nowrap;
-  justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
+  width: 100%;
 }
 
 .projects-title {
